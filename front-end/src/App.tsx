@@ -49,7 +49,9 @@ function App() {
               return (
                 <tr key={fund.id}>
                   <td>
-                    <a href={fund.link}>{fund.data.name}</a>
+                    <a href={fund.link} target="_blank">
+                      {fund.data.name}
+                    </a>
                   </td>
                   <td>{fund.data.productFee}</td>
                   {getCellWithTrendIndicator(fund.data.developmentThreeMonths)}
