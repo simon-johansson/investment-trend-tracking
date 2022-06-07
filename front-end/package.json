@@ -2,6 +2,7 @@
   "name": "investment-trend-tracking-fe",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://simon-johansson.github.io/investment-trend-tracking",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -21,7 +22,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gen-client": "encore gen client investment-trend-tracking-x47i --output=./src/encore-client.ts --env=local"
+    "gen-client-staging": "encore gen client investment-trend-tracking-x47i --output=./src/encore-client.ts",
+    "gen-client-local": "encore gen client investment-trend-tracking-x47i --output=./src/encore-client.ts  --env=local",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "prettier": "2.6.2"
   }
 }
