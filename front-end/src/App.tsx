@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Client, { fund, Local } from "./encore-client";
+import Client, { BaseURL, Environment, fund, Local } from "./encore-client";
 
 function App() {
   const [fundListResponse, setFundListResponse] =
@@ -8,8 +8,11 @@ function App() {
   useEffect(() => {
     const fn = async () => {
       const fetch = window.fetch.bind(window);
-      const env = window.location.hostname === "localhost" ? Local : "prod";
-      const client = new Client(Local, { fetcher: fetch });
+      const target: BaseURL =
+        window.location.hostname === "localhost"
+          ? Local
+          : Environment("staging");
+      const client = new Client(target, { fetcher: fetch });
       const response = await client.fund.GetTrendTrackingData();
       setFundListResponse(response);
     };
