@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/investment-trend-tracking/static/css/main.306a78bf.css",
-    "main.js": "/investment-trend-tracking/static/js/main.26e7c4a2.js",
+    "main.js": "/investment-trend-tracking/static/js/main.8bd63459.js",
     "static/js/787.b16a6e02.chunk.js": "/investment-trend-tracking/static/js/787.b16a6e02.chunk.js",
     "index.html": "/investment-trend-tracking/index.html",
     "main.306a78bf.css.map": "/investment-trend-tracking/static/css/main.306a78bf.css.map",
-    "main.26e7c4a2.js.map": "/investment-trend-tracking/static/js/main.26e7c4a2.js.map",
+    "main.8bd63459.js.map": "/investment-trend-tracking/static/js/main.8bd63459.js.map",
     "787.b16a6e02.chunk.js.map": "/investment-trend-tracking/static/js/787.b16a6e02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.306a78bf.css",
-    "static/js/main.26e7c4a2.js"
+    "static/js/main.8bd63459.js"
   ]
 }
