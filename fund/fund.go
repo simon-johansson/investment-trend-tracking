@@ -8,7 +8,7 @@ import (
 // TODO
 //  * Structured errors
 //  * Hitting different endpoint depending on env
-//  * Deploy to GitHub (pages)
+//  * Deploy to GitHub (pages) https://github.com/marketplace/actions/deploy-to-github-pages#:~:text=GitHub%20Pages%20Deploy%20Action%20%F0%9F%9A%80,works%20with%20GitHub%20Enterprise%20too.
 //  * Add Go tests
 //  * Add cron job
 //  * Add database
