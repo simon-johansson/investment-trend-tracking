@@ -26,7 +26,8 @@ var AvanzaFundIds = []string{
 	"878733",  // Avanza Global
 	"596635",  // Swedbank Robur Access Asien
 	"325406",  // Spiltan Aktiefond Investmentbolag
-	"862033",  // DNB Norden Indeks A
+	"1509084", // DNB Norden Indeks S
+	"1270939", // Avanza Sverige
 }
 
 type Data struct {

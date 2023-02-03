@@ -1,3 +1,5 @@
 /.encore
 
 .idea
+encore.gen.go
+encore.gen.cue
